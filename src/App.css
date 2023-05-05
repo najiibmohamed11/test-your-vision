@@ -1,0 +1,137 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hassan{
+  border-radius: 100%;
+  width: 33px;
+  opacity: 80%;
+  cursor: pointer;
+  margin-left:20% ;
+  margin-top: 100px;
+}
+
+.resualt{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 10px;
+ 
+}
+.fixedpostion,.birmade{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.p1{
+  margin-right:30px;
+  width: 60px;
+  background-color: green;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+.p2{
+  margin-left:30px;
+  width: 60px;
+  background-color: red;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+  .resualt {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .p1, .p2 {
+    margin: 0;
+    width: 50%;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .resualt {
+    gap: 20px;
+  }
+
+  .p1, .p2 {
+    margin: 0;
+    width: 100px;
+  }
+}
+
+/* Laptops and Desktops */
+@media only screen and (min-width: 1024px) {
+  .resualt {
+    gap: 30px;
+  }
+
+  .p1, .p2 {
+    margin: 0;
+    width: 120px;
+  }
+}
+.btn{
+  border: none;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: large;
+  cursor: pointer;
+}
+
+
+
+.fixedposition img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+  .fixedposition img {
+    
+    width: fit-content;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .fixedposition img {
+    width: 50%;
+  }
+}
+
+/* Laptops and Desktops */
+@media only screen and (min-width: 1024px) {
+  .fixedposition img {
+    width: 30%;
+  }
+}
+
+
+/* .hassan {
+  width: 10px; /* decrease the width of the image */
+/* }  */
+
+.fixedpostion img .coffee {
+  max-width: 100%;
+  max-height: 100%;
+}
+
